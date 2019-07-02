@@ -33,6 +33,6 @@ ENV PORT 8080
 
 ENV NODE_ENV production
 
-ENV SECRET_KEY b943383638340ab9bf3e8ea4c1d4831c
+ENV SECRET_KEY YOUR_SECRET_KEY
 
 CMD [ "pm2-runtime", "server.js" ]
